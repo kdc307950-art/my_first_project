@@ -1,5 +1,14 @@
 # 企业知识库智能助手
 
+
+## Project overview
+
+**Project focus:** An enterprise knowledge assistant that answers from controlled documents, preserves access boundaries, cites evidence, and refuses when the knowledge base cannot support an answer.
+
+**Engineering evidence:** React and FastAPI, document ingestion, ACL-aware filtering, hybrid vector and BM25 retrieval, reranking, citation validation, strict refusal, quality feedback, monitoring, backup and recovery procedures, and offline retrieval evaluation.
+
+**Current boundary:** The supported deployment is a single-process, single-worker design with explicit operational limits documented in the repository.
+
 [![CI](https://github.com/kdc307950-art/rag-knowledge-assistant/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kdc307950-art/rag-knowledge-assistant/actions/workflows/ci.yml)
 
 > 文档版本：`0.1`
